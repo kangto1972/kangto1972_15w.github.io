@@ -1,0 +1,91 @@
+/*21961029 김태희*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+body{
+  background-color: #242424;
+  background-image: url(./img/pro.gif);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%
+}
+
+.clear{
+  clear: both;
+}
+
+header{
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  margin: 0 auto;
+  background-color: #242424;
+  background-color: rgba( 255, 255, 255, 0.1 );
+}
+
+header #menu_logo
+{
+	position: absolute;
+  margin: 30px 15px 15px 0px;
+  float: left;
+  list-style-type: none;
+}
+
+header #menu_logo li
+{
+  font-weight:600;
+	font-size: 18px;
+	color: #fddfbf;
+  display:inline-block;
+}
+header #menu_category{
+  float:right;
+}
+header #menu_category li{
+  float: left;
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight:600;
+}
+#menu a{
+   color: #fddfbf;
+   padding: 20px;
+   margin-top: 40px;
+   position: relative; z-index: 999999;
+}
+a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+  color:#444444;
+}
+#menu a:hover{
+   color:#c18e59;
+}
+#header_content{
+  width: 1000px;
+  margin:0 auto;
+}
+#main_box{
+  width:1000px;
+  margin:0 auto;
+}
+#main_box aside{
+  width:200px;
+
+  float:left;
+
+}
+#main_box main{
+  width:800px;
+  height: 840px;
+  float:left;
+
+}
+#pro img{
+  padding: 50px;
+  margin-top: 120px;
+}
