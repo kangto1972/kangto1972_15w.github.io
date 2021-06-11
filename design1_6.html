@@ -1,0 +1,115 @@
+<!DOCTYPE html><!-- 21961029 김태희-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/header0.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./css/footer.css" rel="stylesheet" type="text/css" media="all" />
+    <title>포트폴리오</title>
+    <style media="screen">
+      #sub_nav  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+      position: fixed;
+      }
+      #sub_nav li a {
+          display: block;
+          color: #000;
+          padding: 8px 16px;
+          text-decoration: none;
+      }
+      #sub_nav li a.active {
+          background-color: #fddfbf;
+          color: #c18e59;
+      }
+      #sub_nav li a:hover:not(.active) {
+          background-color: #555;
+          color: #ffffff;
+      }
+      #sub_nav{
+        margin-top:200px;
+      }
+      #main_contents{
+      width: 90%;
+      margin-left:4em;
+      margin-top: 140px;
+      padding-bottom: 200px;
+      }
+      .contents_img img{
+        display: inline-block;
+        float: left;
+        margin:20px 20px 20px 0px;
+      }
+      h1{
+        color:#ffffff;
+
+      }
+      #vi_text h1{
+        color:#ffffff;
+      }
+      .line{
+        margin:25px 0 25px 0;
+        border-top:solid 1px #ffffff;
+      }
+      .contents_img p{
+        display:inline;
+        color:#ffffff;
+
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="header_content">
+        <nav id="menu">
+          <ul id="menu_logo">
+            <li><a href="./index.html">HEE</a></li>
+          </ul>
+          <ul id="menu_category">
+            <li><a href="./profile.html">PROFILE</a></li>
+            <li><a href="./design.html">DESIGN</a></li>
+            <li><a href="./video.html">VIDEO</a></li>
+            <li><a href="./programming.html">WEB PUBLISHING</a></li>
+            <li><a href="./project.html">PROJECT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="main_box">
+      <aside id="pro">
+        <nav id="sub_nav">
+          <ul>
+            <li><a class="active" href="./design.html">Visual communication</a></li>
+            <li><a href="./design2.html">UI/UX</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main>
+        <div id="main_contents">
+          <div id="vi_text">
+            <h1>Visual communication</h1>
+            <div class="line"></div>
+          </div>
+          <div class="contents_img">
+            <p>DIN Pro의 크기 무게를 이용해 포스터를 제작하였습니다.</p>
+            <img src="./img/din_b3.png" width="100%">
+        </div>
+      </main>
+    </section>
+    <div class="clear"></div>
+    <footer>
+    <div id="footer_content">
+      <ul id="address">
+        <li>COPYRIGHT (C) Kim Tae Hee ALL RIGHTS RESERVED</li>
+      </ul>
+        <ul id="footer_sns">
+        <a href="https://www.instagram.com/i1krlur/" target="_blank"><li><img src="img/in.png" width="25px"></li></a>
+        <a href="https://www.facebook.com/profile.php?id=100006486991929&sk=about" target="_blank"><li><img src="img/fa.png" width="25px"></li></a>
+        <a href="https://www.behance.net/kangto1972ea8f" target="_blank"><li><img src="img/be.png" width="25px"></li></a>
+      </ul>
+    </footer>
+  </body>
+</html>
